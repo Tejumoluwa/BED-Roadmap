@@ -1,0 +1,22 @@
+Features:
+* Add tasks
+* Remove tasks
+* Delete tasks
+
+Class To-Do-List:
+Fields:
+* private LinkedList<String> incompleteTasks
+* private LinkedList<String> completeTasks
+* private String task
+* private Scanner reader
+
+Methods:
+* public int getIntInput
+* public void displayCompletedTasks
+* public void displayUncompletedTasks
+* public void addTask
+* public void deleteTask
+* public void markComplete
+* public void printChoice
+* public String getTask
+
