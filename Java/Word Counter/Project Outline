@@ -1,0 +1,47 @@
+Features:
+* Accept file
+* Get user's choice
+* Count word
+* Count characters
+* Count lines
+
+Classes:
+* Java.Counter (Functional Interface)
+* Java.Manager
+* Java.LineCounter (implements Java.Counter)
+* Java.WordCounter (implements Java.Counter)
+* Java.CharacterCounter (implements Java.Counter)
+
+Functional Interface:
+Java.Counter
+Fields:
+int count;
+
+abstract method:
+getCount(File file);
+
+Static method:
+public static boolean verifySpecialCharacter(String word)
+
+
+Java.Manager:
+Fields:
+private int choice
+private File file
+private Scanner reader
+
+Methods:
+public void printChoice()
+public int getChoice()
+main()
+public File validateFile(File file)
+
+
+Java.CharacterCounter:
+public int getCount(File f) (Overridden)
+
+Java.WordCounter:
+public int getCount(File f) (Overridden)
+
+Java.LineCounter:
+public int getCount(File f) (Overridden)
